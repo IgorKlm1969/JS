@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: solid rgb(226, 3, 3) 2px;
+}
+
+.upCell {
+    height: 50px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftCell {
+    width: 50px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blackCell {
+    background-color: hsl(50, 33%, 25%);
+}
+
+.whiteCell {
+    background-color: white;
+}
